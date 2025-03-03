@@ -1,0 +1,13 @@
+# Request
+sensor_msgs/Image image
+string text_prompt   # 提示词
+float32 box_threshold    # 框阈值
+float32 text_threshold   # 文本阈值
+
+---
+
+# Response
+# 压缩后的 mask 数据
+CompressedMask[] masks
+
+# 每个 CompressedMask 的定义需要在 msg 文件中定义 
