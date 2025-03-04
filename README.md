@@ -1,7 +1,7 @@
 # RoboDexVLM
 
 ## Overview
-![RoboDexVLM Overview](assets/fig1.jpeg)
+![RoboDexVLM Overview](assets/overview.jpg)
 
 This project is **RoboDexVLM**, which is a VLM-enabled task planner for dexterous manipulation. It is equipped with a VLM task planner with a replan module, a skill library, and a memory module, ensuring the robustness and adaptability of long-horizon open-vocabulary tasks.
 
@@ -17,7 +17,7 @@ Arxiv: coming soon
 ### Dependency
 You need to install langSAM and AnyGrasp for detection and grasp pose generation.
 
-**NOTE**: The latest langsam depends on python 3.11 or higher, while ROS noetic depends on python 3.8 or lower. 
+**NOTE**: The utilized open-world object segmentation method depends on python 3.11 or higher, while ROS noetic depends on python 3.8 or lower. 
 
 That means that you need at least 2 Anaconda environments. Using socket for communication during execution.
 
@@ -43,7 +43,7 @@ git clone https://github.com/graspnet/anygrasp_sdk.git
 
 ### on upper computer for planning and perception
 
-- Open langSAM & AnyGrasp server, and enable task planner
+- Open dexterous grasp perception server, and enable task planner
 
 ```    
 cd scripts
